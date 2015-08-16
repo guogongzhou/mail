@@ -398,7 +398,7 @@ public class Mail {
 		String subject = "邮件主题";
 		String content = "邮件内容";
 		String username = "zhinanzhou@126.com";
-		String password = "q1w2e3r4t5";
+		String password = "123456";
 		String filename = "file01.log";
 
 		if (null != args) {
