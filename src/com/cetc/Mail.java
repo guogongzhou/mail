@@ -148,9 +148,9 @@ public class Mail {
 	 */
 	public boolean addFileAffix(String filename) {
 
-		System.out.println("增加邮件附件：" + filename);
-		if (!"".equals(filename))
-			return true;
+		File file=new File(filename);
+		if(!file.exists())
+			return false;
 		try {
 			BodyPart bp = new MimeBodyPart();
 			System.out.println("==========================================");
