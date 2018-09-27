@@ -154,6 +154,7 @@ public class Mail {
 		try {
 			BodyPart bp = new MimeBodyPart();
 			System.out.println("==========================================");
+			System.out.println("==========================================");
 			// System.out.println(Mail.class.getResource("/").getPath());
 			// File f = new File(Mail.class.getResource("/").getPath(),
 			// filename);
