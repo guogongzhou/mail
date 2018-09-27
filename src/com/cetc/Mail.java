@@ -396,10 +396,9 @@ public class Mail {
 		String subject = "邮件主题";
 		String content = "邮件内容";
 		String username = "zhinanzhou@126.com";
-		String password = "123456";
-		String filename = "file01.log";
-
-		if (null != args) {
+		String password = "42432423423423423";
+		String filename = "/Users/zhouguogong/test.pptx";
+		if (0 != args.length) {
 			to = args.length > 1 ? args[0] : "zhouguogong@qq.com";
 			copyto = args.length > 2 ? args[1] : "330944287@qq.com";
 			subject = args.length > 3 ? args[2] : "邮件主题";
