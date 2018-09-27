@@ -132,7 +132,6 @@ public class Mail {
 			BodyPart bp = new MimeBodyPart();
 			bp.setContent("" + mailBody, "text/html;charset=GBK");
 			mp.addBodyPart(bp);
-
 			return true;
 		} catch (Exception e) {
 			System.err.println("设置邮件正文时发生错误！" + e);
