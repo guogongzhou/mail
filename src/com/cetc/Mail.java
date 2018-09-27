@@ -405,6 +405,7 @@ public class Mail {
 			content = args.length > 4 ? args[3] : "邮件内容";
 			filename = args.length == 5 ? args[4] : "";
 		}
+		
 		Mail.sendAndCc(smtp, from, to, copyto, subject, content, username, password, filename);
 	}
 }
